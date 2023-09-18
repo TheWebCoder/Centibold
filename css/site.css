@@ -36,6 +36,15 @@ footer .social>a:hover {
     color: var(--dark-color);
 }
 
+.odd {
+    font-weight: 100;
+}
+
+.even {
+    font-weight: bold;
+    font-size: large;
+}
+
 .bsicon {
     color: purple;
 }
@@ -54,6 +63,11 @@ footer .social>a:hover {
 
 .checklist > li i {
     color: green;
+}
+
+.logoFont {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 code[class*="language-"],
