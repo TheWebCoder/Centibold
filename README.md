@@ -10,9 +10,9 @@ Centibold is a coding project showcasing a JavaScript exercise using loops. The 
 - **Conditional Statements**: Incorporates if/then/else statements and boolean logic.
 
 ## How to Use
-1. **Home Page**: Provides an overview of the project. [View Home Page](https://github.com/TheWebCoder/Centibold/blob/main/index.html)
-2. **The App**: Interactive section where users can enter start and end values to see the program in action. [Try the App](https://github.com/TheWebCoder/Centibold/blob/main/app.html)
-3. **The Code**: Insight into the code and its structure. [Explore the Code](https://github.com/TheWebCoder/Centibold/blob/main/code.html)
+1. **Home Page**: Provides an overview of the project. 
+2. **The App**: Interactive section where users can enter start and end values to see the program in action. 
+3. **The Code**: Insight into the code and its structure. 
 
 ## Technology Stack
 - HTML
