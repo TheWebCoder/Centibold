@@ -1,7 +1,7 @@
 # Centibold
 
 ## Overview
-Centibold is a coding project showcasing a JavaScript exercise using loops. The project demonstrates a program that displays numbers from 0 to 100, with even numbers highlighted in bold. To make it unique it accepts a starting number and an ending number and generates an array of numbers based on those values.
+Centibold is a coding project showcasing a JavaScript exercise using loops. The project demonstrates a program that displays numbers from 0 to 100, with even numbers highlighted in bold. To make it unique it allows the user to enter two numbers a start number and an end number. It then generates a sequential array of numbers, ranging from the specified start number to the end number."
 
 ## Features
 - **CSS and Bootstrap Layout**: Utilizes Bootstrap for responsive design.
