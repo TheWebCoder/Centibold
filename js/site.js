@@ -1,5 +1,5 @@
 //get the values from the page
-//starts or controller function
+//starter or controller function
 function getValues() {
     //get values from the page
     let startValue = document.getElementById("startValue").value;
@@ -22,7 +22,7 @@ function getValues() {
 }
 
 //generate numbers from start value to the end value
-//logic function(s)
+//logic function
 function generateNumbers(sValue, eValue) {
 
     let numbers = [];
@@ -38,7 +38,7 @@ function generateNumbers(sValue, eValue) {
 }
 
 //display the numbers and mark even numbers bold
-//display or view functions 
+//display or view function
 function displayNumbers(numbers) {
 
     let templateRows = "";

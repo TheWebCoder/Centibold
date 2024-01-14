@@ -50,10 +50,10 @@
                     <a class="nav-link active" aria-current="page" href="code.html">The Code</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#">Git Repo</a>
+                    <a class="nav-link" target="_blank" href="https://github.com/TheWebCoder/Centibold">Git Repo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#">About</a>
+                    <a class="nav-link" target="_blank" href="https://bryangonzalez.dev/">About</a>
                 </li>
             </ul>
         </div>
@@ -68,7 +68,7 @@
                 <div class="col-lg-8">
                     <pre class="line-numbers"><code class="language-javascript">
                     //get the values from the page
-                    //starts or controller function
+                    //starter or controller function
                     function getValues() {
                         //get values from the page
                         let startValue = document.getElementById("startValue").value;
@@ -81,7 +81,7 @@
                         endValue = parseInt(endValue);
 
                         if (Number.isInteger(startValue) && Number.isInteger(endValue)) {
-                            //call generateNumbers
+                        //call generateNumbers
                         let numbers = generateNumbers(startValue,endValue);
                         //call displayNumbers
                             displayNumbers(numbers);
@@ -99,7 +99,7 @@
                         //we want to get all numbers from to start to end
 
                         for(let index = sValue; index <= eValue; index++) {
-                            //this will execute in a lopp until index = eValue
+                            //this will execute in a loop until index = eValue
                             numbers.push(index)
                         }
 
@@ -107,7 +107,7 @@
                     }
 
                     //display the numbers and mark even numbers bold
-                    //display or view functions 
+                    //display or view function 
                     function displayNumbers(numbers) {
 
                         let templateRows = "";
@@ -135,9 +135,13 @@
                     </pre>
                 </div>
                 <div class="col-lg-4">
-                    <p>The Code is structured in one function.</p>
-                    <h5>Hello World</h5>
-                    <p>Hello World is a function that displays an alert with a message of "Hello World"</p>
+                    <p>The Code is structured in three functions.</p>
+                    <h5>getValues()</h5>
+                    <p>This is the start or controller function. It gets triggered via an event listener on the submit button of the app page. In this function we obtain the start value and end value entered by the user. Then after declaring an array, it validates the user input by parsing the values entered as integers. If both the starting value and ending value are valid integers, a call to the generateNumbers function is made and it returns back an array of numbers. However if either value is not a valid integer then an alert is displayed on the browser. Lastly a call to displayNumbers is made by passing in the numbers array as an argument. </p>
+                    <h5>generateNumbers(sValue, eValue)</h5>
+                    <p>The logic function responsible for generating the numbers based on the two parameters it accepts, the starting value and ending value as integers. After declaring the numbers array all numbers, a for loop is used to populate that array by pushing in the index while it is less than or equal to the ending value. Lastly it returns the numbers as an array.</p>
+                    <h5>function displayNumbers(numbers)</h5>
+                    <p>Responsible for displaying the numbers and acts as the display or view function. First a template row is declared as an empty string. Next a for loop is used to iterate through all of the numbers of the array. If the number is divisible by 2 it's given a class name of even, otherwise it is given a class name of odd. Lastly the number is added to the template row string which contains the class name in the template literal and that value gets added to the inner HTML of results table.</p>
                 </div>
             </div>
         </div>
@@ -150,12 +154,12 @@
                     <div><span class="text-muted">&copy;2023</span> Bryan Gonzalez | bryan@bryangonzalez.dev</div>
                 </div>
                 <div class="col d-flex align-items-center justify-content-start justify-content-lg-center">
-                    <img src="img/logo-full-name-dark.png" alt="Bryan Gonzalez Logo">
+                    <a href="https://bryangonzalez.dev/" target="_blank"><img src="img/logo-full-name-dark.png" alt="Bryan Gonzalez Logo"></a>
                 </div>
                 <div class="col d-flex align-items-center justify-content-start justify-content-lg-end">
                     <div class="row">
-                        <div class="col social"><a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></div>
-                        <div class="col social"><a href="#" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://www.linkedin.com/in/the-web-coder/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://github.com/TheWebCoder" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
                         <div class="col social"><a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></div>
                     </div>
                 </div>
