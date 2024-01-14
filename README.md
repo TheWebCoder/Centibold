@@ -19,6 +19,3 @@ Centibold is a coding project showcasing a JavaScript exercise using loops. The 
 - CSS
 - JavaScript
 - Bootstrap
-
-## License
-This project is open source and available under the [MIT License](LICENSE).
